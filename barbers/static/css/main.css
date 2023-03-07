@@ -1,0 +1,66 @@
+@import url(//db.onlinewebfonts.com/c/05663321f7477456a65e0c363c777377?family=Avenir);
+body, html {
+  font-family: "Avenir";
+  height: 100%;
+  width: 100%;
+  background-color:   #F2F2F2;
+  
+  
+}
+
+#home {
+  background: url(../img/logo1.png) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+#fixedImg {
+  background: url(../img/team.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-text{
+  color: #f8f9fa;
+  text-shadow: 2px 2px 12px #000;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#landing-text{
+  font-size: 4rem;
+  font-weight: bold;
+}
+/* Footer */
+footer {
+  font-size: 0.75rem;
+  color: white;
+  background-color: #008000;
+  padding: 1rem 1rem;
+}
+.divSection{
+  padding: 40px 20px;
+
+}
+
+.divSection img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* jumbotron */
+#appointmetForm{
+  padding: 4rem 0 0 0;
+}
+.col-sm-6 {
+  font-size: 1.5rem;
+}
+strong {
+  margin-top: 5px;
+}
+p, li {
+  font-size: 1rem;
+}
